@@ -165,14 +165,6 @@ response = predictor.predict([60, 130, 300, 150, 2.0, 1])
 predictor.delete_endpoint()
 ```
 
-### Deployment Evidence
-
-| Screenshot                                                | Description                                                 |
-| --------------------------------------------------------- | ----------------------------------------------------------- |
-| ![Training Status](screenshots/training_job_status.png)   | SageMaker training job completed                            |
-| ![Endpoint Config](screenshots/endpoint_config.png)       | Endpoint deployed on ml.t2.medium                           |
-| ![Inference Response](screenshots/inference_response.png) | Sample prediction: Age=60, Chol=300 → Prob=0.78 (High Risk) |
-
 ## Built With
 
 - [NumPy](https://numpy.org/) - Numerical computing and matrix operations
@@ -226,7 +218,7 @@ predictor.delete_endpoint()
 
 ## Contributing
 
-This is an academic project for TDSE (Octavo Semestre). For questions or suggestions, please contact the author.
+This is an academic project for TDSE (Eight Semester).
 
 ## Versioning
 
@@ -234,7 +226,7 @@ This is an academic project for TDSE (Octavo Semestre). For questions or suggest
 
 ## Authors
 
-- **Santiago** - _Lab 02 Implementation_ - TDSE Octavo Semestre
+- **Santiago Carmona**
 
 ## License
 
